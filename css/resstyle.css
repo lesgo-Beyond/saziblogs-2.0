@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 710px) {
+    .nav, .copyright, .sms, .blog, .show-blog, .comment-box, .add-comment-box, 
+    .create-blog,
+    .create-category{
+        width: 500px;
+    }
+
+    .nav{
+        letter-spacing: -2px;
+        padding: 10px;
+    }
+    .sms-form-sms button{
+        padding: 0px;
+    }
+    .add-comment-input button {
+        font-size: 10px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav, .copyright, .sms, .blog, .show-blog, .comment-box, .add-comment-box, 
+    .create-blog,
+    .create-category{
+        width: 330px;
+    }
+    button{
+        letter-spacing: -2px;
+        padding: 0px;
+    }
+}
+

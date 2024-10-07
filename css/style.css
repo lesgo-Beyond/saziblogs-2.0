@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Merienda:wght@300..900&display=swap');
+
+/* <weight>: Use a value from 300 to 900 */
+
+*{
+    font-family: "Merienda", cursive;
+    box-sizing: border-box;
+    margin: 0;
+    /* border: 1px solid red; */
+    transition: all 0.5s;
+}
+
+body{
+    margin: 0;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: darkslateblue;
+}
+/* ----------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------- */
+/* index page starts  */
+.nav-container{
+    background-color:rgb(219, 238, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px dotted black;
+
+}
+.nav{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    margin: 9px 0px;
+}
+.logo a, .option a{
+    color: black;
+    text-decoration: none;
+}
+.option a{
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.option a:hover{
+    color: darkslateblue;
+}
+.option a:active{
+    display: inline-block;
+    border-bottom: 3px solid darkslateblue;
+}
+.logo,.option{
+    display: inline-block;
+}
+.welcome-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.welcome{
+    width: 700px;
+}
+.welcome-note-img img{
+    height: 100px;
+    border-radius: 100px;
+}
+.welcome-note-text a{
+    font-size: 15px;
+}
+.welcome-note-text-socials{
+    margin-top: 20px;
+}
+.welcome-note-text-socials a{
+    margin: 0px 10px 0px 0px;
+}
+.welcome-note-text-button{
+    margin-top: 25px;
+}
+.welcome-note-text-button a {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.welcome-note-text-button a:hover {
+    background-color: white;
+    color: black;
+}
+.copyright-container{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 30px 0px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding: 13px 0px;
+    background-color:rgb(219, 238, 255);
+}
+.copyright{
+    width: 700px;
+    text-align: center;
+}
+.copyright a{
+    font-size: 13px;
+    text-decoration: none;
+    text-decoration: wavy;
+}
+
+/* index page ends  */
+/* ---------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------------- */
+/* leave a message starts  */
+
+.sms-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sms{
+    width: 695px;
+}
+.sms input{
+    margin-bottom: 10px;
+}
+.sms-title h1{
+    margin-bottom: 20px;
+}
+.sms-form-name{
+    display: flex;
+    justify-content: space-between;
+}
+.sms-form-name input{
+    font-size: 18px;
+    width: 49%;
+    height: 50px;
+    padding: 10px;
+}
+.sms-form-mids input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+.sms-form-sms textarea{
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    font-size: 18px;
+}
+.sms-form-sms{
+    display: flex;
+    justify-content: space-between;
+}
+.sms-form-sms button{
+    width: 18%;
+    height: 300px;
+    padding: 10px;
+    font-size: 18px;
+
+    background-color: rgb(17, 17, 17);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.sms-form-sms button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* leave me a message ends  */
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+/* blog starts */
+
+.blog-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    width: 700px;
+}
+
+.filter-text{
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filter-text select{
+    height: 50px;
+    width: 85%;
+    font-size: 15px;
+    padding:10px;
+    color: black;
+    cursor: pointer;
+}
+.filter-text option{
+    color: black;
+}
+.filter-text button{
+    width: 13%;
+    border: 1px solid black;
+    font-size: 15px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+.filter-text button:hover{
+    background-color: white;
+    color: black;
+}
+.search-box-text{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+}
+.search-box-submit{
+    font-size: 15px;
+    width: 13%;
+    height: 50px;
+    
+    background-color: rgb(17, 17, 17);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search-box-submit:hover{
+    color: black;
+    background-color: white;
+}
+.blog-box{
+    margin-top: 13px;
+}
+.blog-box a{
+    text-decoration: none;
+}
+.blog-box-each{
+    border: 1px solid black;
+    margin: 0px 0px 10px 0px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+.blog-box-each:hover{
+    box-shadow: 2.5px 2px black;
+}
+/* blog ends  */
+/* ------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------ */
+/* showBlog starts  */
+
+.show-blog-container, .comment-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show-blog{
+    border: 1px solid black;
+    width: 700px;
+    padding: 30px 30px;
+}
+.show-blog:hover, .comment-box-each:hover{
+    border: 1px solid rgb(23, 2, 163);
+}
+.show-blog h2{
+    margin-bottom: 3px;
+}
+.comment-box{
+    border: 1px solid black;
+    width: 700px;
+    padding: 10px 10px;
+}
+.comment-box-each{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.add-comment-box{
+    width: 700px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.add-comment-input{
+    display: flex;
+    justify-content: space-between;
+}
+.add-comment-input input{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.add-comment-input button{
+    width: 17%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;  
+}
+.add-comment-input button:hover{
+    color: black;
+    background-color: white;
+}
+/* showBlog ends  */
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+/* login starts */
+
+.login-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 700px;
+    border: 1px solid black;
+    padding: 30px;
+}
+.login:hover{
+    border: 1px solid darkblue;
+}
+.login-title h2{
+    margin-bottom: 20px;
+}
+.login-form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.login-form button{
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+}
+.login-form button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* login ends  */
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+#dangerBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    cursor:pointer;
+    width: 100px;
+    margin: 3px;
+}
+.normalbtn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    cursor:pointer;
+    width: 100px;
+    margin: 3px;
+}
+#topBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    padding: 15px; 
+    border: 1px solid white;
+    border-radius: 10px; 
+    cursor: pointer; 
+}
+
+.create-blog-container,
+.create-category-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-blog,
+.create-category {
+    width: 700px;
+}
+
+.blog-title-input,
+.category-selection-input,
+.category-creating-inputs input {
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.text-editor {
+    margin: 10px 0px 10px 0px;
+}
+
+.submitBtn {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+}
+
+.submitBtn:hover {
+    background-color: white;
+    color: black;
+}
+#editTextarea{
+    height: 900px;
+    width: 100%;
+}
